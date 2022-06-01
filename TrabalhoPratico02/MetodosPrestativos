@@ -1,0 +1,101 @@
+// // while(!linha.container("title ott"))
+// // Arq.readline();
+
+// // public static void main(String[] args) {
+// // String[] entrada = new String[1000];
+// // int numEntrada = 0;
+
+// // do {
+// // entrada[numEntrada] = MyIO.readLine();
+// // } while (isFim(entrada[numEntrada++]) == false);
+// // numEntrada--;
+
+// // for (int i = 0; i < numEntrada; i++) {
+// // MyIO.print(somenteVogais(entrada[i], 0) ? "SIM " : "NAO ");
+// // MyIO.print(somenteConsoantes(entrada[i], 0) ? "SIM " : "NAO ");
+// // MyIO.print(somenteInteiros(entrada[i], 0) ? "SIM " : "NAO ");
+// // MyIO.println(somenteReal(entrada[i], 0, 0) ? "SIM " : "NAO");
+// // // MyIO.println("");
+// // }
+
+// // CASO FOR USAR
+// // public void lerArquivoFilme(String args) {
+// // try {
+// // BufferedReader arquivoFilme = new BufferedReader(new FileReader(args));
+
+// // for (String linha; (linha = arquivoFilme.readLine()) != null;) { // leitura
+// // de linha do arquivo filme
+// // if (linha.contains("<title>")) {
+// // // System.out.println(linha);
+// // Pattern remocaoPadrao = Pattern.compile("<title>(.+?)\\)", Pattern.DOTALL);
+// // Matcher naoRemovido = remocaoPadrao.matcher(linha);
+// // naoRemovido.find();
+// // System.out.println("\nFilmes" + arquivoFilme);
+// // System.out.println(naoRemovido.group(1) + ')'); // Aprender sobre PATTERN e
+// // Matcher
+// // }
+
+// // // System.out.println(linha);
+// // }
+
+// // } catch (Exception e) {
+// // e.printStackTrace();
+// // }
+
+// // }
+
+// // public static String removeTags(String entrada) {
+// // String saida = "";
+
+// // for (int i = 0; i < entrada.length(); i++) {
+// // if (entrada.charAt(i) == '<') {
+// // while (entrada.charAt(i) != '>')
+// // i++;
+// // } else {
+// // saida = saida + entrada.charAt(i);
+// // }
+// // }
+// // return saida;
+// // }
+
+// // linha = br.readLine();
+// // while(!linha.contains("class= genres"))
+// // linha = br.readLine();
+// // br.readline();
+// // linha = br.readLine().trim();
+// // System.out.println(removeTags(linha).replace("&nbsp;",""));
+
+// // File pastaDosFilmes = new File("/tmp/filmes"); // criada para abrir o arquivo
+// // tmp, onde contem os filmes
+
+// // for (File arquivoFilme : pastaDosFilmes.listFiles()) { // for para nomes dos
+// // filmes (arquivos)
+// // System.out.println(arquivoFilme.getName()); // for para passar em todos os
+// // nomes dos filmes (arquivos)
+
+// // ClasseFilme filme = new ClasseFilme(); // retorna lista dos Files
+// // filme.lerArquivoFilme("/tmp/filmes/" + arquivoFilme.getName());
+
+// // String arquivo = "tmp/filmes/";
+// // nome = arquivo + nome;
+// // try (BufferedReader br = new BufferedReader(new FileReader(nome))) {
+// //     String linha = "";
+// //     while (!linha.contains("h2")) {
+// //         linha = br.readLine();
+// //     }
+// //     linha = br.readLine().trim();
+// //     this.nome = removeTags(linha);
+// // }catch(IOException ex){
+// //     System.out.println("erro");
+// // }
+
+// // PEGAR TITULO original
+
+// // while(!(linha = br.readLine().contains("Titulo Original"))){
+// //     System.out.println(linha);
+// // }
+
+// contar = contar + 1;
+// // linha = removeTags(linha.trim());
+// // System.out.println(linha);
+// // this.tituloOriginal = linha;
